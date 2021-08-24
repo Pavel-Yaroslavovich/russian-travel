@@ -1,0 +1,11 @@
+.place__image-picture {
+  margin-right: 40px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .place__image-picture {
+    margin-right: 0;
+    position: relative;
+    margin-left: -16px;
+  }
+}

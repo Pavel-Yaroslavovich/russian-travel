@@ -16,10 +16,11 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .place__title-link {
+    width: 288px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 32px;
+    margin: 0 auto;
   }
 }

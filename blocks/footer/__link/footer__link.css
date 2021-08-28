@@ -1,9 +1,22 @@
 .footer__link {
-  flex-grow: 1;
-  display: flex;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 18px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .footer__link {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
-
-
-
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__link {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

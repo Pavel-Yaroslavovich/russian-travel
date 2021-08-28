@@ -4,13 +4,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(42, 44, 47, .3);
 }
 
 .cover__background::after {
   content: "";
   width: 0;
   height: 0;
-  margin-left: -1px;
+  margin-left: 0;
   padding-top: calc(740 / 1184 * 100%);
 }
-

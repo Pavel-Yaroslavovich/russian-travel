@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__title {
     width: 340px;
     font-size: 44px;

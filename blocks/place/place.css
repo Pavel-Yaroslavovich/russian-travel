@@ -26,4 +26,8 @@
     max-width: 320px;
     margin-bottom: 50px;
   }
+
+  .place:last-child {
+    margin-bottom: 66px;
+  }
 }

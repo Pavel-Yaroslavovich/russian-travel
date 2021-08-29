@@ -13,6 +13,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  opacity: 0.8;
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header__link {
     max-width: 22px;

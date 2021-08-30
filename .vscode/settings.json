@@ -1,0 +1,6 @@
+{
+	"html.format.wrapLineLength": 200,
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 200,
+	"files.autoSave": "afterDelay"
+}

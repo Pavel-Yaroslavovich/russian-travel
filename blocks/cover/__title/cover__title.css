@@ -1,0 +1,23 @@
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  background: rgba(42, 44, 47, 1);
+  opacity: 0.3;
+}
+
+.cover__title:hover {
+  background: rgba(42, 44, 47, 1);
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .cover__title {
+    
+  }
+}
